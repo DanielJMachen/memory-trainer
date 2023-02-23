@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+    @font-face {
+        font-family: 'Inter' text-gray-800;
+        
+    }
+    body {
+        @apply tracking-wider font-medium; 
+    }
+    h1 {
+        @apply text-4xl font-light capitalize;
+    }
+    button {
+        @apply bg-white font-semibold hover:bg-gray-100 text-gray-800 py-1 px-4 border border-gray-400 rounded shadow capitalize tracking-wider;
+    }
+    li {
+        @apply py-1
+    }
+    p {
+        @apply font-light
+    }
+    
+}
